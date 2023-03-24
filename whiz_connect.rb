@@ -10,7 +10,7 @@ class WhizConnect < Formula
   license "MIT"
   
   def install
-    bin.install "whiz_connect.sh"
+    bin.install "whiz_connect.sh" => "whiz_connect"
   end
 
   test do

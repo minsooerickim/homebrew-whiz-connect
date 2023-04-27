@@ -4,9 +4,10 @@
 class WhizConnect < Formula
   desc "remove password auth when using SSH on remote servers with user defined encryption method."
   homepage "https://github.com/minsooerickim/WhizConnect"
-  url "https://github.com/minsooerickim/whiz-connect/archive/refs/tags/v1.1.0.tar.gz"
-  version "1.1.0"
-  sha256 "19340ae10e14fde0eac676b729886d22edecf4f07fa509760923f71865fe6524"
+  url "https://github.com/minsooerickim/whiz-connect/archive/refs/tags/v2.0.0.tar.gz"
+  version "2.0.0"
+  # curl -L https://github.com/minsooerickim/whiz-connect/archive/refs/tags/v2.0.0.tar.gz | tee whiz_connect.tar.gz | shasum -a 256
+  sha256 "8b394353d3160a8f2f1c94b392cf1bcf346c6e32df2f20e7fa653161ee61bb24"
   license "MIT"
   
   def install
